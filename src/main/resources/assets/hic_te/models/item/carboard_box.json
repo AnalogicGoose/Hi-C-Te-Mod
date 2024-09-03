@@ -1,0 +1,7 @@
+{
+  "parent": "hic_te:custom/cardboard_box",
+  "textures": {
+    "0": "hic_te:block/cardboard_box_texture",
+    "particle": "hic_te:item/cardboard_box"
+  }
+}

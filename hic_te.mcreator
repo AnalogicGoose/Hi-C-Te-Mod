@@ -1,0 +1,674 @@
+{
+  "mod_elements": [
+    {
+      "name": "HiCTeMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FuctionalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuctional_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/block/FuctionalBlockBlock.java",
+          "src/main/resources/assets/hic_te/models/item/fuctional_block.json",
+          "src/main/resources/assets/hic_te/models/block/fuctional_block.json",
+          "src/main/java/net/mcreator/hicte/block/entity/FuctionalBlockBlockEntity.java",
+          "src/main/resources/data/hic_te/loot_tables/blocks/fuctional_block.json",
+          "src/main/resources/assets/hic_te/blockstates/fuctional_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FuctionalBlockUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuctional_block_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/network/FuctionalBlockUIButtonMessage.java",
+          "src/main/java/net/mcreator/hicte/world/inventory/FuctionalBlockUIMenu.java",
+          "src/main/java/net/mcreator/hicte/client/gui/FuctionalBlockUIScreen.java"
+        ]
+      },
+      "path": "~/UI"
+    },
+    {
+      "name": "HiCTeinBox",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_tein_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_tein_box.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTeinBoxItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTex3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_tex_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HiCTex3Item.java",
+          "src/main/resources/assets/hic_te/models/item/hi_c_tex_3.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTePackBox",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_pack_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_pack_box.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTePackBoxItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTePack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_pack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_pack.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTePackItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTe2LtEmpty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_2_lt_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HiCTe2LtEmptyItem.java",
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_2_lt_empty.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTe2Lt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_2_lt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_2_lt.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTe2LtItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CarboardBox",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carboard_box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/CarboardBoxItem.java",
+          "src/main/resources/assets/hic_te/models/item/carboard_box.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Cardboard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/CardboardItem.java",
+          "src/main/resources/assets/hic_te/models/item/cardboard.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "OnHiCTeDrank",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_hi_c_te_drank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/OnHiCTeDrankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "SecretFormula",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret_formula",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/secret_formula.json",
+          "src/main/java/net/mcreator/hicte/item/SecretFormulaItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "OnHiCTePackDrank",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_hi_c_te_pack_drank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/OnHiCTePackDrankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "OnHiCTe2LtDrank",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_hi_c_te_2_lt_drank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/OnHiCTe2LtDrankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "RawPlastic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_plastic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/RawPlasticItem.java",
+          "src/main/resources/assets/hic_te/models/item/raw_plastic.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PlasticBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/block/plastic_block.json",
+          "src/main/resources/data/hic_te/worldgen/placed_feature/plastic_block.json",
+          "src/main/resources/assets/hic_te/blockstates/plastic_block.json",
+          "src/main/resources/data/hic_te/worldgen/configured_feature/plastic_block.json",
+          "src/main/resources/assets/hic_te/models/item/plastic_block.json",
+          "src/main/java/net/mcreator/hicte/block/PlasticBlockBlock.java",
+          "src/main/resources/data/hic_te/forge/biome_modifier/plastic_block_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Loottableplasticblock",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loottableplasticblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/loot_tables/blocks/plastic_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FuctionalBlockRecipes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuctional_block_recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/FuctionalBlockRecipesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Plastic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/PlasticItem.java",
+          "src/main/resources/assets/hic_te/models/item/plastic.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Dyebottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dyebottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/dyebottle.json",
+          "src/main/java/net/mcreator/hicte/item/DyebottleItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FuctionalBlockJEI",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuctional_block_jei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/jei_recipes/FuctionalBlockJEIRecipeCategory.java",
+          "src/main/java/net/mcreator/hicte/jei_recipes/FuctionalBlockJEIRecipe.java"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "HiCTePackBoxRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_pack_box_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/hi_c_te_pack_box_recipe.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "CardboardBoxRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard_box_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/cardboard_box_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HiCTeinBoxRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_tein_box_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/hi_c_tein_box_recipe.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "HiCTex3Recipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_tex_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/hi_c_tex_3_recipe.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "HiCTePackRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_pack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/hi_c_te_pack_recipe.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "DyebottleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dyebottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/dyebottle_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HiCTe2LtEmptyRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_2_lt_empty_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/hi_c_te_2_lt_empty_recipe.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "CardboardRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/cardboard_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HiCTe2LtRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_2_lt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/hi_c_te_2_lt_recipe.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "MeltedPlastic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_plastic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/MeltedPlasticItem.java",
+          "src/main/resources/assets/hic_te/models/item/melted_plastic.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MeltedPlasticRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_plastic_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/melted_plastic_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SecretFormulaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret_formula_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/secret_formula_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HiCTeStructureLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_structure_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/loot_tables/chests/hi_c_te_structure_loot_table.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "HiCTeSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HiCTeSwordItem.java",
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_sword.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "OnHiCTeSwordHit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_hi_c_te_sword_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/OnHiCTeSwordHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "Boss",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/client/renderer/BossRenderer.java",
+          "src/main/java/net/mcreator/hicte/entity/model/BossModel.java",
+          "src/main/resources/data/hic_te/forge/biome_modifier/boss_biome_modifier.json",
+          "src/main/resources/assets/hic_te/models/item/boss_spawn_egg.json",
+          "src/main/java/net/mcreator/hicte/entity/BossEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:PlasticBlock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PlasticBlock"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:HiCTeSword"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:HiCTeMod": [
+      "PlasticBlock",
+      "FuctionalBlock",
+      "Cardboard",
+      "CarboardBox",
+      "HiCTePackBox",
+      "RawPlastic",
+      "MeltedPlastic",
+      "Plastic",
+      "Dyebottle",
+      "SecretFormula",
+      "HiCTeinBox",
+      "HiCTex3",
+      "HiCTePack",
+      "HiCTe2LtEmpty",
+      "HiCTe2Lt",
+      "HiCTeSword",
+      "Boss"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.hic_te.carboard_box": "Carboard Box",
+      "block.hic_te.plastic_block": "Plastic Block",
+      "gui.hic_te.fuctional_block_ui.label_fuctional_block": "Fuctional Block",
+      "item.hic_te.hi_c_te_2_lt": "Hi C Te 2Lt",
+      "item.hic_te.boss_spawn_egg": "The Barbon Spawn Egg",
+      "item.hic_te.hi_c_te_sword": "Hi C Te Sword",
+      "item.hic_te.raw_plastic": "Raw Plastic",
+      "item.hic_te.hi_c_te": "Hi-C Te",
+      "block.hic_te.fuctional_block": "Fuctional Block",
+      "item.hic_te.hi_c_te_pack_box": "Hi-C Te Pack Box",
+      "entity.hic_te.boss": "The Barbon",
+      "gui.hic_te.fuctional_block_ui.button_make": "Make",
+      "item.hic_te.secret_formula": "Secret Formula",
+      "item.hic_te.hi_c_te_pack": "Hi-C Te Pack",
+      "item.hic_te.hi_c_tein_box": "Hi-C Te in Box",
+      "item.hic_te.melted_plastic": "Melted Plastic",
+      "item.hic_te.hi_c_tex_3": "Hi-C Te x3",
+      "item.hic_te.cardboard": "Cardboard",
+      "item.hic_te.plastic": "Plastic",
+      "item.hic_te.dyebottle": "Dye bottle",
+      "item_group.hic_te.hi_c_te_mod": "Hi-C Te Mod",
+      "item.hic_te.hi_c_te_2_lt_empty": "Hi-C Te 2Lt - Empty"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Code",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "UI",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "JEI",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hic_te",
+    "modName": "Hi-C Té",
+    "version": "1.0.0",
+    "author": "B1structor, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.hicte"
+  },
+  "mcreatorVersion": 202400232117
+}

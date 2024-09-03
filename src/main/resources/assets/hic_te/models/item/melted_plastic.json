@@ -1,0 +1,7 @@
+{
+  "parent": "hic_te:custom/melted_plastic",
+  "textures": {
+    "0": "hic_te:block/melted_pastic_texture",
+    "particle": "hic_te:item/melted_plastic"
+  }
+}

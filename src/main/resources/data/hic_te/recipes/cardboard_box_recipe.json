@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "hic_te:cardboard"
+    }
+  },
+  "result": {
+    "item": "hic_te:carboard_box",
+    "count": 1
+  }
+}

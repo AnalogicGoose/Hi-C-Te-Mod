@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "minecraft:brown_dye"
+    },
+    "c": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "item": "hic_te:cardboard",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hic_te:block/plastic_block"
+    },
+    "facing=east": {
+      "model": "hic_te:block/plastic_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hic_te:block/plastic_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hic_te:block/plastic_block",
+      "y": 270
+    }
+  }
+}

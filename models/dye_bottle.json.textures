@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dyn_bottle_texture"
+      },
+      "name": "default"
+    }
+  }
+}

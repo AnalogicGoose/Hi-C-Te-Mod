@@ -1,0 +1,18 @@
+{
+  "type": "hic_te:fuctional_block_jei",
+  "ingredients": [
+    {
+      "item": "hic_te:hi_c_tex_3"
+    },
+    {
+      "item": "hic_te:hi_c_tex_3"
+    },
+    {
+      "item": "hic_te:hi_c_te_pack_box"
+    }
+  ],
+  "output": {
+    "item": "hic_te:hi_c_te_pack",
+    "count": 1
+  }
+}

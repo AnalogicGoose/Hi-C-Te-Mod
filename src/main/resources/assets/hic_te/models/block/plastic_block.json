@@ -1,0 +1,9 @@
+{
+  "parent": "hic_te:custom/plastic_ore",
+  "textures": {
+    "all": "hic_te:block/plastic_ore",
+    "particle": "hic_te:block/plastic_ore",
+    "0": "hic_te:block/plastic_ore_texture"
+  },
+  "render_type": "solid"
+}

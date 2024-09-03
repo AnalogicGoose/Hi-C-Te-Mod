@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hi_c_te_sword_texture"
+      },
+      "name": "default"
+    }
+  }
+}

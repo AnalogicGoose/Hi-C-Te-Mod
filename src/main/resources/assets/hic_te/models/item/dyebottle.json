@@ -1,0 +1,7 @@
+{
+  "parent": "hic_te:custom/dye_bottle",
+  "textures": {
+    "0": "hic_te:block/dyn_bottle_texture",
+    "particle": "hic_te:item/dyn_bottle"
+  }
+}

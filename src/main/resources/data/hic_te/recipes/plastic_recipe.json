@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "hic_te:melted_plastic"
+    }
+  },
+  "result": {
+    "item": "hic_te:plastic",
+    "count": 1
+  }
+}

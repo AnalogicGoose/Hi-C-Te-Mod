@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Items.DYE#14"
+      },
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": "Items.DYE#14"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "Items.DYE#14"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "Items.DYE#14"
+      },
+      {
+        "value": "Items.DYE#10"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dyebottle"
+    },
+    "name": "dyebottle_recipe",
+    "namespace": "mod"
+  }
+}

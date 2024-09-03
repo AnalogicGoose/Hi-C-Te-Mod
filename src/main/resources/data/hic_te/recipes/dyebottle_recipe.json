@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "ebf"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "minecraft:orange_dye"
+    },
+    "c": {
+      "item": "minecraft:white_dye"
+    },
+    "d": {
+      "item": "minecraft:glass_bottle"
+    },
+    "e": {
+      "item": "minecraft:yellow_dye"
+    },
+    "f": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "hic_te:dyebottle",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "fuctional_block_jei",
+    "result": {
+      "value": "CUSTOM:HiCTePackBox"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "CUSTOM:CarboardBox"
+      },
+      {
+        "value": "CUSTOM:CarboardBox"
+      },
+      {
+        "value": "CUSTOM:CarboardBox"
+      }
+    ]
+  }
+}

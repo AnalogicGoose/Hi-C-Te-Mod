@@ -1,0 +1,7 @@
+{
+  "parent": "hic_te:custom/raw_plastic",
+  "textures": {
+    "0": "hic_te:block/raw_plastic_texture",
+    "particle": "hic_te:item/raw_plastic"
+  }
+}

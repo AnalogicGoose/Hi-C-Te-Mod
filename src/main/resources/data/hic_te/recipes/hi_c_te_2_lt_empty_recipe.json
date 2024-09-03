@@ -1,0 +1,18 @@
+{
+  "type": "hic_te:fuctional_block_jei",
+  "ingredients": [
+    {
+      "item": "hic_te:plastic"
+    },
+    {
+      "item": "hic_te:dyebottle"
+    },
+    {
+      "item": "hic_te:plastic"
+    }
+  ],
+  "output": {
+    "item": "hic_te:hi_c_te_2_lt_empty",
+    "count": 1
+  }
+}

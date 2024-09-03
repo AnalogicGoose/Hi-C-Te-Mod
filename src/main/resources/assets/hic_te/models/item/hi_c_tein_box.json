@@ -1,0 +1,7 @@
+{
+  "parent": "hic_te:custom/hi-c_te_in_box",
+  "textures": {
+    "0": "hic_te:block/hi-c_te_in_box_texture",
+    "particle": "hic_te:item/hi-c_te_in_box"
+  }
+}

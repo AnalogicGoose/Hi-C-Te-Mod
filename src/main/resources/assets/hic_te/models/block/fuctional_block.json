@@ -1,0 +1,9 @@
+{
+  "parent": "hic_te:custom/fuctional_block",
+  "textures": {
+    "all": "hic_te:block/fuctional_block",
+    "particle": "hic_te:block/fuctional_block",
+    "0": "hic_te:block/fuctional_block_texture"
+  },
+  "render_type": "solid"
+}
