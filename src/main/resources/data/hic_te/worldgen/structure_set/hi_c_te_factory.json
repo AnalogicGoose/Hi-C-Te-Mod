@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "hic_te:hi_c_te_factory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 55,
+    "separation": 50,
+    "salt": 1942066424
+  }
+}

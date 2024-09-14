@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "fuctional_block_jei",
+    "result": {
+      "value": "CUSTOM:HiCTeSword"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:SecretFormula"
+      },
+      {
+        "value": "Items.STICK"
+      }
+    ]
+  }
+}

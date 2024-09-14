@@ -1,0 +1,18 @@
+{
+  "type": "hic_te:fuctional_block_jei",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "hic_te:secret_formula"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "output": {
+    "item": "hic_te:hi_c_te_sword",
+    "count": 1
+  }
+}

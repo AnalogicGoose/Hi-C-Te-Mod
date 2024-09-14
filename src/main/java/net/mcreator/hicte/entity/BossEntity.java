@@ -109,7 +109,13 @@ public class BossEntity extends Monster implements GeoEntity {
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, true, true));
 		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, ServerPlayer.class, true, true));
-		this.goalSelector.addGoal(7, new FloatGoal(this));
+		this.goalSelector.addGoal(7, new MeleeAttackGoal(this, 1.2, true) {
+			@Override
+			protected double getAttackReachSqr(LivingEntity entity) {
+				return 4;
+			}
+		});
+		this.goalSelector.addGoal(8, new FloatGoal(this));
 	}
 
 	@Override
@@ -139,6 +145,8 @@ public class BossEntity extends Monster implements GeoEntity {
 		if (source.getDirectEntity() instanceof AbstractArrow)
 			return false;
 		if (source.is(DamageTypes.DROWN))
+			return false;
+		if (source.is(DamageTypes.EXPLOSION))
 			return false;
 		return super.hurt(source, amount);
 	}
@@ -222,24 +230,6 @@ public class BossEntity extends Monster implements GeoEntity {
 		return PlayState.STOP;
 	}
 
-	private PlayState attackingPredicate(AnimationState event) {
-		double d1 = this.getX() - this.xOld;
-		double d0 = this.getZ() - this.zOld;
-		float velocity = (float) Math.sqrt(d1 * d1 + d0 * d0);
-		if (getAttackAnim(event.getPartialTick()) > 0f && !this.swinging) {
-			this.swinging = true;
-			this.lastSwing = level().getGameTime();
-		}
-		if (this.swinging && this.lastSwing + 7L <= level().getGameTime()) {
-			this.swinging = false;
-		}
-		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("Attack"));
-		}
-		return PlayState.CONTINUE;
-	}
-
 	String prevAnim = "empty";
 
 	private PlayState procedurePredicate(AnimationState event) {
@@ -279,7 +269,6 @@ public class BossEntity extends Monster implements GeoEntity {
 	@Override
 	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
 		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
-		data.add(new AnimationController<>(this, "attacking", 4, this::attackingPredicate));
 		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
 	}
 

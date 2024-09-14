@@ -552,6 +552,73 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "BossAttack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/BossAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "HiCTeFactory",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_factory",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/worldgen/structure_set/hi_c_te_factory.json",
+          "src/main/resources/data/hic_te/worldgen/template_pool/hi_c_te_factory.json",
+          "src/main/resources/data/hic_te/worldgen/structure/hi_c_te_factory.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "HiCTeSwordRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hic_te/recipes/hi_c_te_sword_recipe.json"
+        ]
+      },
+      "path": "~/JEI"
     }
   ],
   "variable_elements": [],
