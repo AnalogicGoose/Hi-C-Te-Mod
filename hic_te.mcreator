@@ -546,7 +546,6 @@
         "files": [
           "src/main/java/net/mcreator/hicte/client/renderer/BossRenderer.java",
           "src/main/java/net/mcreator/hicte/entity/model/BossModel.java",
-          "src/main/resources/data/hic_te/forge/biome_modifier/boss_biome_modifier.json",
           "src/main/resources/assets/hic_te/models/item/boss_spawn_egg.json",
           "src/main/java/net/mcreator/hicte/entity/BossEntity.java"
         ]
